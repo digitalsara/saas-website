@@ -9,9 +9,16 @@ header {
 }
 
 li, a {
-  color: #2d2d2d;
+  color: #487FFF;
   display: inline-block;
   text-decoration: none;
+}
+
+.register {
+  color: #fff;
+  background-color: #487FFF;
+  border-radius: 8px;
+  padding: .5em;
 }
 
 @media only screen and (min-width: 38em) {
