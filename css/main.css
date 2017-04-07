@@ -1,0 +1,23 @@
+html {
+  background-color: #F9FBFF;
+  font-family: 'Varela Round', sans-serif;
+}
+/*HEADER NAV*/
+header {
+  background-color: #EDF1F8;
+  text-align: center;
+}
+
+li, a {
+  color: #2d2d2d;
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  ul {
+    text-align: right;
+  }
+
+}
