@@ -1,6 +1,12 @@
 html {
   background-color: #F9FBFF;
   font-family: 'Varela Round', sans-serif;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
 }
 
 /*HEADER NAV*/
@@ -9,7 +15,7 @@ header {
   text-align: center;
 }
 
-li, a {
+nav li, nav a {
   color: #487FFF;
   display: inline-block;
   text-decoration: none;
@@ -24,8 +30,38 @@ li, a {
 
 @media only screen and (min-width: 38em) {
 
-  ul {
+  nav ul {
     text-align: right;
   }
 
+}
+
+/*FOOTER*/
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer li, footer a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+footer button, footer button:hover {
+  border-color: #487FFF;
+  background-color: #487FFF;
+  border: none;
+}
+
+footer fieldset {
+  border-top: none;
+}
+
+footer input {
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  height: 40px;
 }
