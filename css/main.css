@@ -99,7 +99,6 @@ header p {
 /*FOOTER*/
 
 footer {
-  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
@@ -129,4 +128,8 @@ footer input {
 input::-webkit-input-placeholder {
    font-size: .75em;
    padding: .5em;
+}
+
+section {
+  height: 100%;
 }
