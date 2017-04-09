@@ -9,6 +9,12 @@ body {
   min-height: 100%;
 }
 
+hr {
+  width: 80%;
+  transform: translateX(15%);
+  border-color: #ccc;
+}
+
 /*HEADER*/
 header {
   background-color: #EDF1F8;
@@ -21,7 +27,7 @@ nav li, nav a {
   text-decoration: none;
 }
 
-.register {
+.nav-register {
   color: #fff;
   background-color: #487FFF;
   border-radius: 8px;
@@ -93,6 +99,16 @@ header p {
     bottom: .25em;
     max-width: 300px;
   }
+}
+
+/*OFFER SECTION*/
+
+.register {
+  color: #fff;
+  background-color: #487FFF;
+  border-radius: 8px;
+  padding: .5em 1.5em;
+  text-decoration: none;
 }
 
 
