@@ -9,7 +9,7 @@ body {
   min-height: 100%;
 }
 
-/*HEADER NAV*/
+/*HEADER*/
 header {
   background-color: #EDF1F8;
   text-align: center;
@@ -35,6 +35,66 @@ nav li, nav a {
   }
 
 }
+
+/*banner*/
+.banner, .img-overlay {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.title {
+  color: #fff;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 12em;
+}
+
+header h1 {
+  display: inline;
+}
+
+header p {
+  color: #fff;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 6em;
+  max-width: 400px;
+}
+
+/*half tablet*/
+@media only screen and (max-width: 32em) {
+  .title {
+    bottom: 7em;
+    width: 350px;
+  }
+
+  header p {
+    bottom: 1.5em;
+    max-width: 300px;
+  }
+}
+/*mobile*/
+@media only screen and (max-width: 25em) {
+  .title {
+    bottom: 6em;
+    width: 300px;
+  }
+
+  header p {
+    bottom: .25em;
+    max-width: 300px;
+  }
+}
+
 
 /*FOOTER*/
 
