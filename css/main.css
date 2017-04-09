@@ -65,3 +65,8 @@ footer input {
   border: 2px solid #ccc;
   height: 40px;
 }
+
+input::-webkit-input-placeholder {
+   font-size: .75em;
+   padding: .5em;
+}
