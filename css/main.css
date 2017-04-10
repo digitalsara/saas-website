@@ -1,5 +1,4 @@
 html {
-  background-color: #F9FBFF;
   font-family: 'Varela Round', sans-serif;
   height: 100%;
 }
@@ -152,7 +151,6 @@ header p {
   border-radius: 8px;
   padding: .5em 1.5em;
   text-decoration: none;
-  font-size: .75em;
 }
 
 /*FOOTER*/
@@ -162,6 +160,12 @@ footer {
   bottom: 0;
   left: 0;
   padding-top: 2em;
+  position: absolute;
+}
+
+.footer {
+  min-height: 100%;
+  position: relative;
 }
 
 footer li, footer a {
