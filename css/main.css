@@ -160,12 +160,10 @@ footer {
   bottom: 0;
   left: 0;
   padding-top: 2em;
-  position: absolute;
 }
 
 .footer {
   min-height: 100%;
-  position: relative;
 }
 
 footer li, footer a {
@@ -196,4 +194,14 @@ input::-webkit-input-placeholder {
 
 section {
   height: 100%;
+}
+
+/*follow-up footer*/
+
+#ty-footer-container {
+  position: absolute;
+}
+
+.ty-footer {
+  position: relative;
 }
