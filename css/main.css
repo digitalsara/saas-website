@@ -136,7 +136,11 @@ header p {
 }
 
 .card-btn {
-
+  color: #2d2d2d;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: .5em 1.5em;
+  text-decoration: none;
 }
 
 /*FOOTER*/
