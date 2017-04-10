@@ -112,6 +112,10 @@ header p {
 
 /*TESTIMONIALS SECTION*/
 
+.testimonials {
+  background-color: #ededed;
+}
+
 .headshot {
   width: 30%;
 }
