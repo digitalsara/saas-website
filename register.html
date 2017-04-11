@@ -36,11 +36,58 @@
 </header>
 
 <main>
+  <form class="max-length gutter-2 pad-t-2" id="register" action="https://formspree.io/habe0022@algonquinlive.com" method="POST">
+    <h1 class="push-0">Start your engines</h1>
+    <h2 class="mega">Fill out this form to get started</h2>
+    <fieldset>
+      <!-- <div class="grid grid-middle">
+        <div class="unit">
+          <h3 class="milli">Your child's name</h3>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push gutter-1-8">
+          <input id="name" name="name" placeholder="First">
+        </div>
 
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 push gutter-1-8">
+          <input type="text" name="name" placeholder="Last">
+        </div>
+      </div> -->
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
+          <label for="age">Your child's age</label>
+          <select id="age" name="age">
+            <option>Select</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
+          <label for="email">Parent's email</label>
+          <input id="email" name="email" type="email">
+        </div>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
+        <label for="tel">Phone number</label>
+        <input id="tel" name="tel" type="tel">
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 l-1 xl-1 push">
+        <input type="checkbox" id="terms" name="check">
+        <label for="terms">I accept the terms and conditions</label>
+      </div>
+    </div>
+    </fieldset>
+  </form>
 </main>
 
 <!-- FOOTER -->
 <footer>
+  <hr>
   <div class="grid footer gutter-1-2">
     <img src="images/logo.svg" class="i-48 unit xs-1 s-1 m-1-4 l-1-4 xl-1-4 push" alt="logo">
     <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
