@@ -114,6 +114,10 @@ header p {
   text-decoration: none;
 }
 
+.register:hover {
+  background-color: #044FFF;
+}
+
 /*TESTIMONIALS SECTION*/
 
 #testimonials {
