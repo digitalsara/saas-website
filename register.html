@@ -37,10 +37,11 @@
 
 <main>
   <form class="max-length gutter-2 pad-t-2" id="register" action="https://formspree.io/habe0022@algonquinlive.com" method="POST">
-    <h1 class="push-0">Start your engines</h1>
+    <h1 class="push-0 yotta">Start your engines</h1>
     <h2 class="mega">Fill out this form to get started</h2>
     <fieldset>
       <div class="grid grid-middle">
+        <!-- NAME INPUT -->
         <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 push">
           <label for="age">Your child's name</label>
         </div>
@@ -51,6 +52,7 @@
           <input type="text" name="name" placeholder="Last">
         </div>
 
+        <!-- AGE INPUT -->
          <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 push">
            <label for="age">Your child's age</label>
          </div>
@@ -65,6 +67,7 @@
           </select>
         </div>
 
+        <!-- EMAIL INPUT -->
         <div class="unit xs-1 s-1 m-1-3 l-1-3 xl-1-3 push">
           <label for="age">Parent's email</label>
         </div>
@@ -79,12 +82,14 @@
           <input id="tel" name="tel" type="tel">
         </div>
 
+        <!-- CHECKBOX -->
         <div class="terms unit xs-1 s-1 m-1 l-1 xl-1 push">
           <input type="checkbox" id="terms" name="check">
           <label for="terms">I accept the terms and conditions</label>
         </div>
       </div> <!--grid-->
 
+        <!-- BUTTON -->
       <div class="text-center pad-top mega">
         <button class="btn-reg" type="submit">
           <a href="thank-you.html">Start free trial</a>

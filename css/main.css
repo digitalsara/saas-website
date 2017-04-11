@@ -181,7 +181,7 @@ footer li, footer a {
 
 footer button, footer button:hover {
   border-color: #487FFF;
-  background-color: #487FFF;
+  background-color: #044FFF;
   border: none;
 }
 
@@ -195,7 +195,7 @@ footer input {
   height: 40px;
 }
 
-input::-webkit-input-placeholder {
+footer input::-webkit-input-placeholder {
    font-size: .75em;
    padding: .5em;
 }
