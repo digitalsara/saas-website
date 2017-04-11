@@ -227,3 +227,10 @@ section {
   border: 2px solid #ccc;
   height: 40px;
 }
+
+input[type="checkbox"] + label:before {
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  height: 25px;
+  width: 25px;
+}
