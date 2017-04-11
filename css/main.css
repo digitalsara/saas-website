@@ -33,6 +33,10 @@ nav li, nav a {
   padding: .5em;
 }
 
+.nav-register:hover {
+  background-color: #044FFF;
+}
+
 @media only screen and (min-width: 38em) {
 
   nav ul {
@@ -233,4 +237,19 @@ input[type="checkbox"] + label:before {
   border: 2px solid #ccc;
   height: 25px;
   width: 25px;
+}
+
+.btn-reg {
+  background-color: #487FFF;
+  border: none;
+}
+
+.btn-reg:hover {
+  background-color: #044FFF;
+  border: none;
+}
+
+.btn-reg a {
+  color: #fff;
+  text-decoration: none;
 }
