@@ -20,7 +20,7 @@ header {
   text-align: center;
 }
 
-nav li, nav a {
+header nav li, header nav a {
   color: #487FFF;
   display: inline-block;
   text-decoration: none;
@@ -256,4 +256,10 @@ input[type="checkbox"] + label:before {
 .btn-reg a {
   color: #fff;
   text-decoration: none;
+}
+
+/*TABLES*/
+
+.tbl-free, .tbl-prem, .tbl-vip {
+
 }
