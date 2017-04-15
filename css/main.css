@@ -266,7 +266,41 @@ input[type="checkbox"] + label:before {
 
 /* TOUR TABLE/CALENDAR*/
 
+#calendar {
+  background-color: #ededed;
+  padding: 4em 0 5em;
+}
+
+table td {
+  border-radius: 12px 12px 0 0;
+}
+
+.days td {
+  background-color: #fff;
+  border-radius: 0px;
+}
+
 .tbl-tour {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
+}
+
+table tr .tbl-top-row {
+  color: #fff;
+  background-color: #487FFF;
+}
+
+table td, table th {
+  border-color: #ccc;
+}
+
+.day-green {
+  background-color: #9fc831;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.day-grey {
+  background-color: #f9f9f9;
+  border-radius: 0px;
 }
