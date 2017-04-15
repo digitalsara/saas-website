@@ -45,26 +45,38 @@ header nav li, header nav a {
 
 }
 
-/*BANNER*/
+/*MAIN BANNER*/
+
+.banner {
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+
 .content {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 80%;
+}
+
+/*mobile main banner*/
+@media only screen and (max-width: 25em) {
+
+  .content {
+    width: 100%;
+  }
+}
+
+/*TOUR BANNER*/
+.content-tour {
   background-image: url("../images/pattern-rocket.svg");
   background-repeat: repeat-x;
 }
 .content-tour {
   padding: 12% 0;
-}
-
-header h1 {
-  display: inline;
-}
-
-header p {
-  color: #fff;
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%;
-  bottom: 6em;
-  max-width: 400px;
 }
 
 /*REGISTER BUTTON*/
