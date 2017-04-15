@@ -46,6 +46,10 @@ header nav li, header nav a {
 }
 
 /*BANNER*/
+.content {
+  background-image: url("../images/pattern-rocket.svg");
+  background-repeat: repeat-x;
+}
 .content-tour {
   padding: 12% 0;
 }
