@@ -54,26 +54,6 @@ header nav li, header nav a {
   padding: 12% 0;
 }
 
-/*.banner, .img-overlay {
-  position: relative;
-  max-height: 500px;
-  overflow: hidden;
-}
-
-.content {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-}
-
-.title {
-  color: #fff;
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50%;
-  bottom: 12em;
-}*/
-
 header h1 {
   display: inline;
 }
@@ -148,49 +128,6 @@ header p {
   text-decoration: none;
 }
 
-/*FOOTER*/
-
-footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding-top: 9em;
-}
-
-.footer {
-  min-height: 100%;
-}
-
-footer li, footer a {
-  text-decoration: none;
-  color: #2d2d2d;
-}
-
-footer button, footer button:hover {
-  border-color: #487FFF;
-  background-color: #044FFF;
-  border: none;
-}
-
-footer fieldset {
-  border-top: none;
-}
-
-footer input {
-  border-radius: 8px;
-  border: 2px solid #ccc;
-  height: 40px;
-}
-
-footer input::-webkit-input-placeholder {
-   font-size: .75em;
-   padding: .5em;
-}
-
-section {
-  height: 100%;
-}
-
 /*follow-up footer*/
 
 #ty-footer-container {
@@ -241,12 +178,6 @@ input[type="checkbox"] + label:before {
   text-decoration: none;
 }
 
-/*TABLES*/
-
-.tbl-free, .tbl-prem, .tbl-vip {
-
-}
-
 /* TOUR TABLE/CALENDAR*/
 
 #calendar {
@@ -286,4 +217,47 @@ table td, table th {
 .day-grey {
   background-color: #f9f9f9;
   border-radius: 0px;
+}
+
+/*FOOTER*/
+
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 4em;
+}
+
+.footer {
+  min-height: 100%;
+}
+
+footer li, footer a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+footer button, footer button:hover {
+  border-color: #487FFF;
+  background-color: #044FFF;
+  border: none;
+}
+
+footer fieldset {
+  border-top: none;
+}
+
+footer input {
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  height: 40px;
+}
+
+footer input::-webkit-input-placeholder {
+   font-size: .75em;
+   padding: .5em;
+}
+
+section {
+  height: 100%;
 }
