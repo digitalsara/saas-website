@@ -71,11 +71,9 @@ header nav li, header nav a {
 }
 
 /*TOUR BANNER*/
-.content-tour {
+.content-pattern {
   background-image: url("../images/pattern-rocket.svg");
   background-repeat: repeat-x;
-}
-.content-tour {
   padding: 12% 0;
 }
 
