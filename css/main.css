@@ -91,6 +91,8 @@ header nav li, header nav a {
   background-color: #044FFF;
 }
 
+
+
 /*TESTIMONIALS SECTION*/
 
 #testimonials {
@@ -227,6 +229,32 @@ table td, table th {
 .day-grey {
   background-color: #f9f9f9;
   border-radius: 0px;
+}
+
+/*PRICING*/
+.pricing {
+  background-color: #FFB300;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2em;
+}
+
+.pr-price {
+  font-family: "Changa One", cursive;
+  font-size: 3em;
+}
+
+/*get started button*/
+.btn-start {
+  color: #2B2B2B;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: .5em 1.5em;
+  text-decoration: none;
+}
+
+.btn-start:hover {
+  background-color: #EFEFEF;
 }
 
 /*FOOTER*/
