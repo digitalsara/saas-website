@@ -264,6 +264,21 @@ table td, table th {
 
 }
 
+/*icon list*/
+@media only screen and (max-width: 60em) {
+
+  .i-list {
+    transform: translate(30%);
+  }
+}
+
+@media only screen and (max-width: 38em) {
+
+  .i-list {
+    transform: translate(10%);
+  }
+}
+
 /*get started button*/
 .btn-start {
   color: #2B2B2B;
