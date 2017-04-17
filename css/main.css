@@ -244,6 +244,16 @@ table td, table th {
   font-size: 3em;
 }
 
+/*pricing quote*/
+.quote {
+  background-color: #ededed;
+  padding-bottom: 2em;
+}
+
+.quote-p {
+  padding-right: -50px;
+}
+
 /*tablet*/
 @media only screen and (max-width: 60em) {
 
