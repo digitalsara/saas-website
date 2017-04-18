@@ -318,8 +318,13 @@ table td, table th {
   background-color: #EFEFEF;
 }
 
-/*FOOTER*/
+/*CURRENT PAGE STYLES*/
+.nav .current {
+  border-bottom: 4px solid #487FFF;
+}
 
+
+/*FOOTER*/
 footer {
   right: 0;
   bottom: 0;
