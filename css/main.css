@@ -30,6 +30,18 @@ header nav li, header nav a {
   max-width: 300px;
 }
 
+@media only screen and (max-width: 38em) {
+
+  .logo {
+    margin: 0 6em;
+  }
+
+  nav li {
+    padding: 3px;
+  }
+
+}
+
 .nav-register {
   color: #fff;
   background-color: #487FFF;
