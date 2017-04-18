@@ -250,10 +250,6 @@ table td, table th {
   padding-bottom: 2em;
 }
 
-.quote-p {
-  padding-right: -50px;
-}
-
 /*tablet*/
 @media only screen and (max-width: 60em) {
 
