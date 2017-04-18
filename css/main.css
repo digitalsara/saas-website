@@ -250,6 +250,18 @@ table td, table th {
   padding-bottom: 2em;
 }
 
+/*email section*/
+.email {
+  background-color: #487FFF;
+  border-radius: 8px;
+  color: #fff;
+  padding: 2em;
+}
+
+.email a {
+  color: #fff;
+}
+
 /*tablet*/
 @media only screen and (max-width: 60em) {
 
