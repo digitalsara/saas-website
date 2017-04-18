@@ -30,6 +30,7 @@ header nav li, header nav a {
   max-width: 300px;
 }
 
+/*mobile*/
 @media only screen and (max-width: 38em) {
 
   .logo {
@@ -62,7 +63,6 @@ header nav li, header nav a {
 }
 
 /*MAIN BANNER*/
-
 .banner {
   position: relative;
   max-height: 500px;
@@ -94,7 +94,6 @@ header nav li, header nav a {
 }
 
 /*REGISTER BUTTON*/
-
 .register {
   color: #fff;
   background-color: #487FFF;
@@ -107,10 +106,7 @@ header nav li, header nav a {
   background-color: #044FFF;
 }
 
-
-
 /*TESTIMONIALS SECTION*/
-
 #testimonials {
   background-color: #ededed;
 }
@@ -130,13 +126,11 @@ header nav li, header nav a {
 }
 
 /*WORKS SECTION*/
-
 .graph-img {
   width: 90%;
 }
 
 /*CARDS SECTION*/
-
 .link-card {
   background-color: #ffcb52;
   padding: 3em;
@@ -157,7 +151,6 @@ header nav li, header nav a {
 }
 
 /*follow-up footer*/
-
 #ty-footer-container {
   position: absolute;
 }
@@ -167,13 +160,11 @@ header nav li, header nav a {
 }
 
 /*PRODUCT.HTML*/
-
 #comp-section {
   background-color: #ededed;
 }
 
 /*REGISTER - SIGN UP*/
-
 #register fieldset {
   border-top: none;
 }
@@ -207,7 +198,6 @@ input[type="checkbox"] + label:before {
 }
 
 /* TOUR TABLE/CALENDAR*/
-
 #calendar {
   background-color: #ededed;
   padding: 4em 0 5em;
