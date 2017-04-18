@@ -254,6 +254,11 @@ table td, table th {
   width: 70%;
 }
 
+.quote-mark-i img {
+  width: 50%;
+  transform: translate(-50%, -20%);
+}
+
 /*email section*/
 .email {
   background-color: #487FFF;
