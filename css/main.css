@@ -26,6 +26,14 @@ header nav li, header nav a {
   text-decoration: none;
 }
 
+header nav a:hover {
+  color: #3259b3;
+}
+
+.nav-register:hover{
+  color: #fff;
+}
+
 .logo {
   max-width: 300px;
 }
