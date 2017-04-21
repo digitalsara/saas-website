@@ -1,5 +1,5 @@
 html {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   height: 100%;
 }
 
@@ -14,14 +14,15 @@ hr {
   border-color: #ccc;
 }
 
-/*HEADER*/
+/* HEADER */
+
 header {
-  background-color: #EDF1F8;
+  background-color: #edf1f8;
   text-align: center;
 }
 
 header nav li, header nav a {
-  color: #487FFF;
+  color: #487fff;
   display: inline-block;
   text-decoration: none;
 }
@@ -30,7 +31,8 @@ header nav a:hover {
   color: #3259b3;
 }
 
-.nav-register:hover{
+.nav-register:hover {
+  background-color: #044fff;
   color: #fff;
 }
 
@@ -38,7 +40,8 @@ header nav a:hover {
   max-width: 300px;
 }
 
-/*mobile*/
+/* mobile */
+
 @media only screen and (max-width: 38em) {
 
   .logo {
@@ -53,13 +56,9 @@ header nav a:hover {
 
 .nav-register {
   color: #fff;
-  background-color: #487FFF;
+  background-color: #487fff;
   border-radius: 8px;
   padding: .5em;
-}
-
-.nav-register:hover {
-  background-color: #044FFF;
 }
 
 @media only screen and (min-width: 38em) {
@@ -70,7 +69,8 @@ header nav a:hover {
 
 }
 
-/*MAIN BANNER*/
+/* MAIN BANNER */
+
 .banner {
   position: relative;
   max-height: 500px;
@@ -86,35 +86,40 @@ header nav a:hover {
   min-width: 80%;
 }
 
-/*mobile main banner*/
+/* mobile main banner */
+
 @media only screen and (max-width: 25em) {
 
   .content {
     width: 100%;
   }
+
 }
 
-/*TOUR BANNER*/
+/* TOUR BANNER */
+
 .content-pattern {
   background-image: url("../images/pattern-rocket.svg");
   background-repeat: repeat-x;
   padding: 12% 0;
 }
 
-/*REGISTER BUTTON*/
+/* REGISTER BUTTON */
+
 .register {
   color: #fff;
-  background-color: #487FFF;
+  background-color: #487fff;
   border-radius: 8px;
   padding: .5em 1.5em;
   text-decoration: none;
 }
 
 .register:hover {
-  background-color: #044FFF;
+  background-color: #044fff;
 }
 
-/*TESTIMONIALS SECTION*/
+/* TESTIMONIALS SECTION */
+
 #testimonials {
   background-color: #ededed;
 }
@@ -133,12 +138,14 @@ header nav a:hover {
   float: left;
 }
 
-/*WORKS SECTION*/
+/* WORKS SECTION */
+
 .graph-img {
   width: 90%;
 }
 
-/*CARDS SECTION*/
+/* CARDS SECTION */
+
 .link-card {
   background-color: #ffcb52;
   padding: 3em;
@@ -149,7 +156,8 @@ header nav a:hover {
   text-decoration: none;
 }
 
-/*cards button*/
+/* cards button */
+
 .card-btn {
   color: #2d2d2d;
   background-color: #fff;
@@ -158,7 +166,8 @@ header nav a:hover {
   text-decoration: none;
 }
 
-/*follow-up footer*/
+/* follow-up footer */
+
 #ty-footer-container {
   position: absolute;
 }
@@ -167,12 +176,14 @@ header nav a:hover {
   position: relative;
 }
 
-/*PRODUCT.HTML*/
+/* PRODUCT.HTML */
+
 #comp-section {
   background-color: #ededed;
 }
 
-/*REGISTER - SIGN UP*/
+/* REGISTER - SIGN UP */
+
 #register fieldset {
   border-top: none;
 }
@@ -191,12 +202,12 @@ input[type="checkbox"] + label:before {
 }
 
 .btn-reg {
-  background-color: #487FFF;
+  background-color: #487fff;
   border: none;
 }
 
 .btn-reg:hover {
-  background-color: #044FFF;
+  background-color: #044fff;
   border: none;
 }
 
@@ -205,7 +216,8 @@ input[type="checkbox"] + label:before {
   text-decoration: none;
 }
 
-/* TOUR TABLE/CALENDAR*/
+/*  TOUR TABLE/CALENDAR */
+
 #calendar {
   background-color: #ededed;
   padding: 4em 0 5em;
@@ -217,7 +229,7 @@ table td {
 
 .days td {
   background-color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .tbl-tour {
@@ -227,7 +239,7 @@ table td {
 
 table tr .tbl-top-row {
   color: #fff;
-  background-color: #487FFF;
+  background-color: #487fff;
 }
 
 table td, table th {
@@ -237,17 +249,18 @@ table td, table th {
 .day-green {
   background-color: #9fc831;
   color: #fff;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .day-grey {
   background-color: #f9f9f9;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 /* PRICING */
+
 .pricing {
-  background-color: #FFB300;
+  background-color: #ffb300;
   border-radius: 10px;
   color: #fff;
   padding: 2em;
@@ -258,7 +271,8 @@ table td, table th {
   font-size: 3em;
 }
 
-/*pricing quote*/
+/* pricing quote */
+
 .quote {
   background-color: #ededed;
   padding-bottom: 2em;
@@ -273,9 +287,10 @@ table td, table th {
   transform: translate(-50%, -20%);
 }
 
-/*email section*/
+/* email section */
+
 .email {
-  background-color: #487FFF;
+  background-color: #487fff;
   border-radius: 8px;
   color: #fff;
   padding: 2.5em 0;
@@ -285,7 +300,8 @@ table td, table th {
   color: #fff;
 }
 
-/*tablet*/
+/* tablet */
+
 @media only screen and (max-width: 60em) {
 
   .pricing {
@@ -295,21 +311,25 @@ table td, table th {
 
 }
 
-/*mobile*/
+/* mobile */
+
 @media only screen and (max-width: 38em) {
 
   .pricing {
     width: 100%;
     transform: none;
   }
+
 }
 
-/*icon list*/
+/* icon list */
+
 @media only screen and (max-width: 60em) {
 
   .i-list {
     transform: translate(30%);
   }
+
 }
 
 @media only screen and (max-width: 38em) {
@@ -317,11 +337,13 @@ table td, table th {
   .i-list {
     transform: translate(10%);
   }
+
 }
 
-/*get started button*/
+/* get started button */
+
 .btn-start {
-  color: #2B2B2B;
+  color: #2b2b2b;
   background-color: #fff;
   border-radius: 8px;
   padding: .5em 1.5em;
@@ -329,16 +351,17 @@ table td, table th {
 }
 
 .btn-start:hover {
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
-/*CURRENT PAGE STYLES*/
+/* CURRENT PAGE STYLES */
+
 .nav .current {
-  border-bottom: 4px solid #487FFF;
+  border-bottom: 4px solid #487fff;
 }
 
+/* FOOTER */
 
-/*FOOTER*/
 footer {
   right: 0;
   bottom: 0;
@@ -356,8 +379,8 @@ footer li, footer a {
 }
 
 footer button, footer button:hover {
-  border-color: #487FFF;
-  background-color: #044FFF;
+  border-color: #487fff;
+  background-color: #044fff;
   border: none;
 }
 
@@ -372,8 +395,8 @@ footer input {
 }
 
 footer input::-webkit-input-placeholder {
-   font-size: .75em;
-   padding: .5em;
+  font-size: .75em;
+  padding: .5em;
 }
 
 section {
