@@ -124,6 +124,10 @@ header nav a:hover {
   background-color: #ededed;
 }
 
+.li-test {
+  padding-top: 0;
+}
+
 .headshot {
   width: 30%;
 }
