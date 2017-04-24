@@ -198,7 +198,7 @@ header nav a:hover {
   height: 40px;
 }
 
-input[type="checkbox"] + label:before {
+input[type="checkbox"] + label::before {
   border-radius: 8px;
   border: 2px solid #ccc;
   height: 25px;
