@@ -19,6 +19,7 @@ hr {
 header {
   background-color: #edf1f8;
   text-align: center;
+  height: 30%;
 }
 
 header nav li, header nav a {
@@ -37,21 +38,7 @@ header nav a:hover {
 }
 
 .logo {
-  max-width: 300px;
-}
-
-/* mobile */
-
-@media only screen and (max-width: 38em) {
-
-  .logo {
-    margin: 0 6em;
-  }
-
-  nav li {
-    padding: 3px;
-  }
-
+  height: 11em;
 }
 
 .nav-register {
