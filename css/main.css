@@ -280,35 +280,6 @@ table td, table th {
   color: #fff;
 }
 
-/* mobile */
-
-@media only screen and (max-width: 38em) {
-
-  .pricing {
-    width: 100%;
-    transform: none;
-  }
-
-}
-
-/* icon list */
-
-@media only screen and (max-width: 60em) {
-
-  .i-list {
-    transform: translate(30%);
-  }
-
-}
-
-@media only screen and (max-width: 38em) {
-
-  .i-list {
-    transform: translate(10%);
-  }
-
-}
-
 /* get started button */
 
 .btn-start {
