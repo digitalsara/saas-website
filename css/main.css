@@ -60,8 +60,8 @@ header nav a:hover {
 
 .banner {
   position: relative;
-  max-height: 500px;
   overflow: hidden;
+  max-height: 500px;
 }
 
 .content {
@@ -70,17 +70,7 @@ header nav a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 80%;
-}
-
-/* mobile main banner */
-
-@media only screen and (max-width: 25em) {
-
-  .content {
-    width: 100%;
-  }
-
+  min-width: 96%;
 }
 
 /* TOUR BANNER */
