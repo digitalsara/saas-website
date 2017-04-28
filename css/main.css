@@ -31,20 +31,28 @@ header nav a:hover {
   color: #3259b3;
 }
 
-.nav-register:hover {
-  background-color: #044fff;
-  color: #fff;
-}
-
-.logo {
-  height: 11em;
-}
-
 .nav-register {
   color: #fff;
   background-color: #487fff;
   border-radius: 8px;
   padding: .5em;
+}
+
+.nav-register:hover {
+  background-color: #044fff;
+  color: #fff;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .nav-register {
+    margin: 1.5em 0;
+  }
+
+}
+
+.logo {
+  height: 11em;
 }
 
 @media only screen and (min-width: 38em) {
